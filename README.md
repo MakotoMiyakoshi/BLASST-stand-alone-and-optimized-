@@ -1,9 +1,9 @@
 # BLASST — Standalone and Optimized EEGLAB Plugin
 
-**Band-Limited Atomic Sampling with Spectral Tuning**  
+**Band-Limited Atomic Sampling with Spectral Tuning (BLASST)**  
 **EEGLAB plugin v1.0.0** | MATLAB | [Apache-2.0 license](LICENSE)
 
-BLASST is a frequency-selective, time-adaptive approach to removing nonstationary power-line interference from EEG. This standalone [EEGLAB](https://sccn.ucsd.edu/eeglab/) plugin provides both a **PREP-derived legacy implementation** and a separately maintained **performance-optimized implementation**. Users can switch between them without silently replacing the earlier implementation. **Optimized is the default; Serial is the default execution mode.**
+BLASST (Ball et al., 2017) is a frequency-selective, time-adaptive approach to removing nonstationary power-line interference from EEG. This standalone [EEGLAB](https://sccn.ucsd.edu/eeglab/) plugin provides both a **PREP-derived legacy implementation** and a separately maintained **performance-optimized implementation**. Users can switch between them without silently replacing the earlier implementation. **Optimized is the default; Serial is the default execution mode.**
 
 [**Download BLASST Standalone v1.0.0**](BLASST_Standalone_v1.0.0.zip) · [Original method](https://doi.org/10.1109/TBME.2016.2632119) · [Independent algorithm comparison](https://doi.org/10.1016/j.cortex.2026.11.005)
 
