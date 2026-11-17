@@ -119,7 +119,7 @@ The optimization benchmarks were conducted on **one workstation**, primarily usi
 Please cite these papers as appropriate:
 
 - **Algorithm:** Ball KR, Hairston WD, Franaszczuk PJ, Robbins KA. (2017). *BLASST: Band Limited Atomic Sampling With Spectral Tuning With Applications to Utility Line Noise Filtering.* **IEEE Transactions on Biomedical Engineering, 64**(9), 2276–2287. https://doi.org/10.1109/TBME.2016.2632119
-- **Comparative evaluation:** Maruyama Y, et al. (2026). *Comparing line-noise removal algorithms for EEG data processing.* **Cortex** (online November 7, 2026). https://doi.org/10.1016/j.cortex.2026.11.005
+- **Comparative evaluation:** Yasuhisa Maruyama, Natsue Yoshimura, Ernest V. Pedapati, Craig A. Erickson, Kenneth R. Ball, Kay A. Robbins, and Makoto Miyakoshi (2026). *Comparing line-noise removal algorithms for EEG data processing.* **Cortex** (online November 7, 2026). https://doi.org/10.1016/j.cortex.2026.11.005
 
 ---
 
