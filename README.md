@@ -65,10 +65,10 @@ The A change also avoided approximately **1.57 GiB of explicit 3D-atom allocatio
 
 | 33 channels of 50-Hz EEG | PREP-derived adapted baseline | Optimized Serial | Optimized Parallel (8 workers × 2 threads) |
 | --- | ---: | ---: | ---: |
-| **5 minutes/channel** | **98.64 s** | **27.38 s** (**3.60× faster**) | **18.41 s** processing (pool startup excluded; separate screening) |
-| **30 minutes/channel** | **714.80 s** | **167.93 s** (**4.26× faster; 76.5% less time**) | **124.23 s** (**5.75× faster; 82.6% less time**) |
+| **5 minutes/channel** | **98.6 s** | **27.4 s (3.6× faster)** | **18.4 s (5.4× faster)** |
+| **30 minutes/channel** | **714.8 s** | **167.9 s (4.3× faster)** | **124.2 s (5.8× faster)** |
 
-The 30-minute parallel pool needed **14.56 s to start**, measured separately; startup-inclusive elapsed time would be approximately **138.79 s** for that run. The table describes **core processing times**, not complete EEGLAB import, GUI, or save times. Five-minute baseline/serial figures reflect separate matched benchmark campaigns; the cited incremental savings for C and H come from paired measurements. Hardware: Windows 11, Intel Core i9-10900K (10 physical cores), 96 GB RAM, MATLAB R2024b Update 3, EEGLAB 2024.0; benchmarked 33 channels at 256 Hz, 50 ± 2 Hz, 4-s Gabor scale, resolution 2, 50-iteration maximum. Speedups will depend on the data, hardware, MATLAB version, and parallel configuration.
+All times in the table represent **core processing only**; parallel pool startup was **excluded and measured separately**. The 30-minute parallel pool required **14.6 s** to start; startup-inclusive elapsed time would be approximately **138.8 s** for that run. These timings do not include complete EEGLAB import, GUI, or save times. Five-minute baseline/serial figures reflect separate matched benchmark campaigns; the cited incremental savings for C and H come from paired measurements. Hardware: Windows 11, Intel Core i9-10900K (10 physical cores), 96 GB RAM, MATLAB R2024b Update 3, EEGLAB 2024.0; benchmarked 33 channels at 256 Hz, 50 ± 2 Hz, 4-s Gabor scale, resolution 2, 50-iteration maximum. Speedups will depend on the data, hardware, MATLAB version, and parallel configuration.
 
 ### 3.3 How close are the outputs?
 
