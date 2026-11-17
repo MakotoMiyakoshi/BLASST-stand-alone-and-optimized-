@@ -1,0 +1,17 @@
+BLASST Standalone v1.0.0
+
+Portions adapted from BLASST by Kenneth R. Ball (copyright 2015),
+originally distributed under the Apache License, Version 2.0.
+The Legacy (Original) mode is a PREP-derived adapted implementation,
+not a byte-exact copy of the independent original BLASST source.
+The Optimized mode is a separate, performance-optimized implementation.
+
+Algorithm publication:
+Ball KR, Hairston WD, Franaszczuk PJ, Robbins KA (2017).
+IEEE Transactions on Biomedical Engineering 64(9):2276-2287.
+DOI: 10.1109/TBME.2016.2632119.
+
+Comparison publication:
+Maruyama Y et al. (2026). Comparing line-noise removal algorithms
+for EEG data processing. Cortex (online publication 7 November 2026).
+DOI: 10.1016/j.cortex.2026.11.005.
